@@ -1,0 +1,22 @@
+{
+  "name": "marble-foods-backend",
+  "version": "1.0.0",
+  "description": "A backend for marbel foods",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Adenuga Adewumi Efe",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.19.2",
+    "mongoose": "^8.5.3",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.1.9"
+  }
+}
